@@ -1,5 +1,6 @@
 body {
     margin: 20px;
+    width: 600px;
 }
 
 .avatar {
@@ -9,6 +10,7 @@ body {
 .card {
     padding: 20px;
     display: flex;
+    justify-content: space-evenly;
     /*
     Challenge:
     Add horizontal space around the flex children.

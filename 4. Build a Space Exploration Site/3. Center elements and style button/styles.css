@@ -1,13 +1,38 @@
-/*
-Challenge:
-1. Center the text and button
-2. Style the button according to the design.
-   Use a class to select the button.
-*/
-
-body {
-    color: white;
-    background-image: url("images/universe.jpg");
-    background-size: cover;
+:root {
+    --spaceblue: #82a5ca;
 }
 
+body {
+    margin: none;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    
+    color: var(--spaceblue);
+}
+
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+}
+
+#mainLogo {
+    width: 100px;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    color: var(--spaceblue);
+    font-weight: 800;
+    border: none;
+    font-family: inherit;
+}
+
+.underline {
+    text-decoration: underline 3px white;
+}

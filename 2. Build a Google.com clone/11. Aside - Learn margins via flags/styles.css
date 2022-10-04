@@ -6,10 +6,16 @@
 .blue {
     background: #0d1b88;
     height: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .green {
     background: #397327;
     height: 100px;
+}
+
+body {
+    margin: 0px;
 }
 

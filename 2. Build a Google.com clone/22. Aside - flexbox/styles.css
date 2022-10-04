@@ -4,4 +4,11 @@
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
 }
